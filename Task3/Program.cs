@@ -21,11 +21,11 @@ Console.WriteLine("Введите слово для проверки: ");
 String poly = Console.ReadLine();
 if (ChekPoly(poly) == true)
 {
-    Console.WriteLine($"{poly} - полиндром");
+    Console.WriteLine($"{poly} - палиндром");
 }
 else
 {
-    Console.WriteLine($"{poly} - не полиндром");
+    Console.WriteLine($"{poly} - не палиндром");
 }
 
 
